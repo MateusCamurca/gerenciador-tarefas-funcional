@@ -26,7 +26,7 @@ python gerenciador_tarefas.py
 ```
 
  Autores
-- Mateus Araujo Camurca - 2318990
+- Mateus Araujo Camurça - 2318990
 - Cleany Teixeira Viana - 2317477
 -  Maria Jose de Sousa - 2313652
 - Francisco Matheus Rodrigues ferreira - 2314659
