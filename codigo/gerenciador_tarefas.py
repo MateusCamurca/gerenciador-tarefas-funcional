@@ -45,24 +45,20 @@ if __name__ == '__main__':
 
     complete_task('Fazer compras')
 
-    print("
-Tarefas Pendentes:")
+    print("Tarefas Pendentes:")
     for t in list_pending_tasks():
         print(f"- {t['nome']} ({t['prioridade']})")
 
-    print("
-Tarefas Concluídas:")
+    print("Tarefas Concluídas:")
     for t in list_completed_tasks():
         print(f"- {t['nome']} ({t['prioridade']})")
 
-    print("
-Tarefas com prioridade alta:")
+    print("Tarefas com prioridade alta:")
     alta = filter_tasks_by_priority('alta')
     for t in alta:
         print(f"- {t['nome']} ({t['prioridade']})")
 
-    print("
-Tarefas com prioridade média usando closure:")
+    print("Tarefas com prioridade média usando closure:")
     validador_media = gerar_validador_de_prioridade('media')
     media = filtrar_tarefas(tarefas, validador_media)
     for t in media:
